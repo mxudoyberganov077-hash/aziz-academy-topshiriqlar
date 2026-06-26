@@ -1,0 +1,17 @@
+
+
+n = int(input())
+products = []
+for _ in range(n):
+    name, price = input().split()
+    products.append({'name': name, 'price': int(price)})
+x = input().strip()
+fount = False
+for product in products:
+    if product['name'] == x:
+        fount = True
+        break
+if fount:
+    print("YES")
+else:
+    print("NO")
