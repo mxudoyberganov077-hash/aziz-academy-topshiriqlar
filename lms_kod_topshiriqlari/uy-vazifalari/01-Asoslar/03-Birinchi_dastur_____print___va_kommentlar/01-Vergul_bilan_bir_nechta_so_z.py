@@ -1,1 +1,1 @@
-print("Python", "juda", "kuchli", "tili")
+print("Python", "juda", "kuchli", "til")
