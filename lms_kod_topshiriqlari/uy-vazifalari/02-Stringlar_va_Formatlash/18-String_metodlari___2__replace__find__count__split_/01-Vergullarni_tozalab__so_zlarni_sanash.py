@@ -1,0 +1,6 @@
+gap = input()
+tozalangan_gap = gap.replace(',', ' ')
+sozlar = tozalangan_gap.split()
+yangi_gap = ' '.join(sozlar)
+print(yangi_gap)
+print(len(sozlar))
