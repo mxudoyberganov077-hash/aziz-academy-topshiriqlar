@@ -1,6 +1,6 @@
 ism = "Aziz"
 kurs = "Python"
-modul = "Asoslari"
+modul = "Asoslar"
 print("Ism:", ism)
 print("Kurs:", kurs)
 print("Modul:", modul)
