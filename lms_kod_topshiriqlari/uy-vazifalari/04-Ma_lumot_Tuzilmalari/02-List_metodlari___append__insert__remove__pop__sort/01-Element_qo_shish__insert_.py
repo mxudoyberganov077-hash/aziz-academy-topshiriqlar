@@ -1,0 +1,7 @@
+lst = input().split()
+p = int(input())
+x = input()
+
+lst.insert(p, x)
+
+print(*lst)
